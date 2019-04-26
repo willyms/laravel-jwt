@@ -101,7 +101,4 @@ Database seeding completed successfully.
 
 #### Agora, vamos realizar um request do tipo POST no endpoint ```/api/auth/login``` e ver o retorno:
 ![alt text](https://github.com/willyms/laravel-jwt/blob/master/postman-imagem-02.PNG)
-
- 
-#### Agora, vamos realizar um request do tipo POST no endpoint ```/api/auth/login``` e ver o retorno:
 #### O email é gerando automaticamente (confirar na tabela do seu bando de dados), porém a senha é unica 'secret'.
