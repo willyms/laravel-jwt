@@ -16,22 +16,22 @@ $ git clone  git@github.com:willyms/laravel-jwt.git
 ```
 
 ###### Vamos renomear o arquivo .env.example para apenas .env, e adicionar algumas como banco de dados.
-> #.env
-> APP_NAME=Laravel
-> APP_ENV=local
-> APP_KEY=
-> JWT_SECRET=
-> APP_DEBUG=true
-> APP_URL=http://localhost
-> 
-> LOG_CHANNEL=stack
-> 
-> DB_CONNECTION=mysql
-> DB_HOST=127.0.0.1
-> DB_PORT=3306
-> DB_DATABASE=db_dev
-> DB_USERNAME=root
-> DB_PASSWORD=
+> ##### .env
+> ##### APP_NAME=Laravel
+> ##### APP_ENV=local
+> ##### APP_KEY=
+> ##### JWT_SECRET=
+> ##### APP_DEBUG=true
+> ##### APP_URL=http://localhost
+> ##### 
+> ##### LOG_CHANNEL=stack
+> ##### 
+> ##### DB_CONNECTION=mysql
+> ##### DB_HOST=127.0.0.1
+> ##### DB_PORT=3306
+> ##### DB_DATABASE=db_dev
+> ##### DB_USERNAME=root
+> ##### DB_PASSWORD=
 > 
 ###### No caso eu apenas adicionei o usuário root do meu MySQL e a minha senha praticamente inquebravel.
 ###### Executer o comando abaixo para gerar as chaves do APP_KEY e JWT_SECRET.
