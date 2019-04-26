@@ -190,7 +190,7 @@ return [
     | a little on token size.
     |
     */
-
+   
     'lock_subject' => true,
 
     /*
